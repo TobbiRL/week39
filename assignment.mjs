@@ -33,9 +33,9 @@ const tall = [1, 2, 3, 4, 5];
 let tallSum = 0;
 for (let i = 0; i < tall.length; i++) {
     tallSum += tall[i];
-    console.log(tallSum);
-}
 
+}
+console.log("The sum of tall is " + tallSum);
 /* -----------------------------------------------------------------------------
     Task: B
     Below is a function "summer," which is incomplete; it should return the sum of the numbers it receives in a list.
@@ -70,7 +70,7 @@ if (sum === 15) {
 console.log("Task: C");
 
 const andreTall = [6, 7, 8, 9]
-let differanse = 0;
+let differanse = andreTall[0];
 for (let i = 0; i < andreTall.length; i++) {
     differanse -= andreTall[i];
     console.log(differanse);
@@ -87,7 +87,7 @@ console.log("Task: D");
 function differansier(liste) {
 
     /* What should go here?? */
-    let andreListeSum = 6;
+    let andreListeSum = andreTall[0];
     for (let i = 0; i < liste.length; i++) {
      andreListeSum -= liste[i];
     }
