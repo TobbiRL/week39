@@ -71,7 +71,7 @@ console.log("Task: C");
 
 const andreTall = [6, 7, 8, 9]
 let differanse = andreTall[0];
-for (let i = 0; i < andreTall.length; i++) {
+for (let i = 1; i < andreTall.length; i++) {
     differanse -= andreTall[i];
 }
 console.log("The difference is " + differanse);
