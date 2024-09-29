@@ -31,6 +31,10 @@ console.log("Task: A");
 
 const tall = [1, 2, 3, 4, 5];
 
+for (let i = 0; i < tall.length; i++) {
+    let tallSum = "sum" + tall[i];
+    console.log(tallSum);
+}
 
 /* -----------------------------------------------------------------------------
     Task: B
