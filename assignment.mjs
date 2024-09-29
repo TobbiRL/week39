@@ -47,8 +47,8 @@ function summer(liste) {
 
     /* What should go here?? */
     let listeSum = 0;
-    for (let i = 0; i < listeSum.length; i++) {
-     liste += listeSum[i];
+    for (let i = 0; i < liste.length; i++) {
+     listeSum += liste[i];
     }
     return (listeSum);
 }
