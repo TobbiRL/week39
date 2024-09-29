@@ -44,9 +44,10 @@ for (let i = 0; i < tall.length; i++) {
 console.log("Task: B");
 
 function summer(liste) {
-
-    /* What should go here?? */
-
+ for (let i = 0; i < tall.length; i++) {
+        let listeSum = tall[i] 
+        console.log(listeSum);
+    }
 }
 
 const sum = summer(tall);
