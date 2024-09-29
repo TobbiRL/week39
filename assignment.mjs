@@ -108,3 +108,19 @@ if (diff === -18) {
     Create a function named "multipliser." This function should take (as a parameter) a list of numbers.
     The function should return the product of the numbers (i.e., tal1 * tal2 * tal3 * ... and so on).
 */
+
+function multipliser(liste) {
+
+    /* What should go here?? */
+    let thirdListe = tall[0];
+    for (let i = 0; i < liste.length; i++) {
+     thirdListe *= liste[i];
+    }
+    return (thirdListe);
+}
+
+const mult = multipliser(tall);
+console.log (mult);
+
+const mult2 = multipliser(andreTall);
+console.log (mult2);
