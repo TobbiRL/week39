@@ -87,7 +87,7 @@ function differansier(liste) {
 
     /* What should go here?? */
     let andreListeSum = andreTall[0];
-    for (let i = 0; i < liste.length; i++) {
+    for (let i = 1; i < liste.length; i++) {
      andreListeSum -= liste[i];
     }
     return (andreListeSum);
