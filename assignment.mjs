@@ -87,11 +87,17 @@ console.log("Task: D");
 function differansier(liste) {
 
     /* What should go here?? */
+    let andreListeSum = 0;
+    for (let i = 0; i < liste.length; i++) {
+     andreListeSum -= liste[i];
+    }
+    return (andreListeSum);
 }
+
 
 const diff = differansier(andreTall);
 
-if (diff === -18) {
+if (diff === -30) {
     console.log("🎉 Task D is most likely correct");
 } else {
     console.log("😱 Task D has some issues, but you can fix it 👍");
