@@ -30,9 +30,9 @@ for (let index = 0; index < people.length; index++) {
 console.log("Task: A");
 
 const tall = [1, 2, 3, 4, 5];
-
+let tallSum = 0;
 for (let i = 0; i < tall.length; i++) {
-    let tallSum = "sum" + tall[i];
+    tallSum += tall[i];
     console.log(tallSum);
 }
 
