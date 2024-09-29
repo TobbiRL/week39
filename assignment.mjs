@@ -47,11 +47,10 @@ function summer(liste) {
 
     /* What should go here?? */
     let listeSum = 0;
-    for (let i = 0; i < tall.length; i++) {
-    liste = tall[i] + listeSum;
-    console.log (listeSum);
+    for (let i = 0; i < listeSum.length; i++) {
+     liste += listeSum[i];
     }
-
+    return (listeSum);
 }
 
 const sum = summer(tall);
