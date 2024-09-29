@@ -13,6 +13,16 @@
     Task: Example
     Write the code to print out all the names in the list, one name per line.
 */
+const MAKE_PRETTY = {
+    SUM: "The sum of tall is ",
+    DIFFERENCE: "The difference is ",   
+    CORRECT_TASKB: "🎉 Task B is most likely correct",
+    WRONG_TASKB: "😱 Task B has some issues, but you can fix it 👍",
+    CORRECT_TASKD: "🎉 Task D is most likely correct",
+    WRONG_TASKD: "😱 Task D has some issues, but you can fix it 👍",
+}
+//I would change the other magic strings, but it is in the code provided so "DO NOT" made me not do it :)
+
 console.log("Task: Example");
 const people = ["Tony", "Christian", "Håkon"]
 
@@ -35,7 +45,7 @@ for (let i = 0; i < tall.length; i++) {
     tallSum += tall[i];
 
 }
-console.log("The sum of tall is " + tallSum);
+console.log(MAKE_PRETTY.SUM + tallSum);
 /* -----------------------------------------------------------------------------
     Task: B
     Below is a function "summer," which is incomplete; it should return the sum of the numbers it receives in a list.
@@ -74,7 +84,7 @@ let differanse = andreTall[0];
 for (let i = 1; i < andreTall.length; i++) {
     differanse -= andreTall[i];
 }
-console.log("The difference is " + differanse);
+console.log(MAKE_PRETTY.DIFFERENCE + differanse);
 
 /* -----------------------------------------------------------------------------
     Task: D
@@ -108,6 +118,7 @@ if (diff === -18) {
     Create a function named "multipliser." This function should take (as a parameter) a list of numbers.
     The function should return the product of the numbers (i.e., tal1 * tal2 * tal3 * ... and so on).
 */
+console.log ("Task E");
 
 function multipliser(liste) {
 
