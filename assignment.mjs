@@ -70,6 +70,11 @@ if (sum === 15) {
 console.log("Task: C");
 
 const andreTall = [6, 7, 8, 9]
+let differanse = 0;
+for (let i = 0; i < andreTall.length; i++) {
+    differanse -= andreTall[i];
+    console.log(differanse);
+}
 
 
 /* -----------------------------------------------------------------------------
